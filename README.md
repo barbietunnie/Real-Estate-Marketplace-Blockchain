@@ -43,11 +43,22 @@ The capstone will build upon the knowledge you have gained in the course in orde
     truffle test
     ```
 
+7. Deploy to test network
+
+    ```
+    truffle migrate --reset --network rinkeby
+    ```
+
 ## Deliverables
 
-### SolnSquareVerifier Ropsten [contract address](https://ropsten.etherscan.io/address/0xb9D59881B429359Afb565F497Ea30D2f814BF41C#code)
+### Smart Contracts
 
-0xb9D59881B429359Afb565F497Ea30D2f814BF41C
+The smart contracts was deployed on the _Ropsten_ network due to the inability to deploy to the _Rinkeby_ network.
+
+- **REMToken:** [0x2d0cdf79BAd9E8de25AB8Cc13C5d5c0B011bD4f0](https://ropsten.etherscan.io/address/0x2d0cdf79BAd9E8de25AB8Cc13C5d5c0B011bD4f0)
+- **SquareVerifier:** [0x496F3C875E62339233b6c69D724339043da8d770](https://ropsten.etherscan.io/address/0x496F3C875E62339233b6c69D724339043da8d770)
+- **SolnSquareVerifier:** [0xb9D59881B429359Afb565F497Ea30D2f814BF41C](https://ropsten.etherscan.io/address/0xb9D59881B429359Afb565F497Ea30D2f814BF41C)
+
 
 ### Contract ABIs
 
