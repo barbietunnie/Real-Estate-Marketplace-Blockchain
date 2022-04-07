@@ -1,0 +1,7 @@
+.env
+
+eth-contracts/.secret
+eth-contracts/.infura
+eth-contracts/build/
+
+node_modules/
