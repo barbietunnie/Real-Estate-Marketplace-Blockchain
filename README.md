@@ -10,7 +10,7 @@ The capstone will build upon the knowledge you have gained in the course in orde
 - Openzeppelin Solidity 2.2.0
 - Zokrates docker image 0.4.6
 
-> This implies that your zokrates container should be spun up with that particular version to avoid issues with the version of the libraries currently being used within the project: `docker run -v <project code directoy>:/home/zokrates/code -it zokrates/zokrates:0.4.6 /bin/bash`
+> This implies that your zokrates container should be spun up with that particular version to avoid breaking changes with Solidity version ^0.5.2 that is used within the project: `docker run -v <project code directoy>:/home/zokrates/code -it zokrates/zokrates:0.4.6 /bin/bash`
 
 ## How-to
 
