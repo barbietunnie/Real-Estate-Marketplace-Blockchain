@@ -8,6 +8,9 @@ The capstone will build upon the knowledge you have gained in the course in orde
 - Solidity v0.5.2 (solc-js)
 - Node v10.24.1
 - Openzeppelin Solidity 2.2.0
+- Zokrates docker image 0.4.6
+
+> This implies that your zokrates container should be spun up with that particular version to avoid issues with the version of the libraries currently being used within the project: `docker run -v <project code directoy>:/home/zokrates/code -it zokrates/zokrates:0.4.6 /bin/bash`
 
 ## How-to
 
