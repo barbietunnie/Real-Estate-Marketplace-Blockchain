@@ -27,6 +27,26 @@ The capstone will build upon the knowledge you have gained in the course in orde
     ```
     npm install
     ```
+    
+4. Create proofs, witnesses and verifier (_Optional_)
+
+
+    ```
+    # compile
+    zokrates compile -i square.code
+    
+    # perform the setup phase
+    zokrates setup
+    
+    # execute the program
+    zokrates compute-witness -a 7 49 // Since we intend to find the square (any other squared values work)
+    
+    # generate a proof of computation
+    zokrates generate-proof
+    
+    # export a solidity verifier
+    zokrates export-verifier
+    ```
 
 4. Compile the contracts
 
